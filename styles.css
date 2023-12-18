@@ -1,0 +1,98 @@
+/* root */
+
+/* {
+    box-sizing: border-box;
+  } */
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+
+/* TITLE */
+
+.title {
+    text-align: center;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: auto;
+    height: 400px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+.domain {
+    font-size: 20px;
+}
+
+/* whoami */
+
+.whoami-intro {
+    font-size: 50px;
+    text-align: center;
+    margin: 5%;
+}
+
+/* articles animated carousel slide */
+#articles-carousel {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article {
+    width: 300px;
+    height: 90%;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* NAVBAR */
+.navbar {
+    margin: 20px;
+    text-align: center;
+}
+
+.nav-links {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links:hover {
+    background-color: red;
+}
+
+/* HIRE ME */
+.hire-me {
+    margin-top: 250px;
+    width: 100%;
+    height: 500px;
+    /* background-color: gold; */
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10%;
+    padding: 20px;
+}
